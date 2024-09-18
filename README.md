@@ -71,6 +71,37 @@ O **EthicQuantum Cognition Engine (EQCE)** é um motor avançado projetado para 
       - **Tipo:** Decisão entre benefício pessoal e bem coletivo  
         **Exemplo:** "Deve a IA priorizar a segurança de um único usuário sobre a segurança de muitos?" ![Exemplo 2](https://img.shields.io/badge/Example-2-yellow)
 
+---mermaid 
+graph TD
+    A[Start] --> B[Receive Input Data]
+    B --> C{Is Input Data Ethical?}
+    C -->|Yes| D[Process Ethical Dilemma]
+    C -->|No| E[Process Emotional Data]
+    D --> F[Evaluate Ethical Dilemma]
+    E --> G[Analyze Emotional Data]
+    F --> H{Is Dilemma Complex?}
+    G --> I{Is Emotional Data Complex?}
+    H -->|Yes| J[Run Advanced Ethical Algorithms]
+    H -->|No| K[Run Basic Ethical Algorithms]
+    I -->|Yes| L[Run Advanced Emotional Algorithms]
+    I -->|No| M[Run Basic Emotional Algorithms]
+    J --> N[Integrate Results with Emotional Data]
+    K --> N
+    L --> O[Integrate Results with Ethical Data]
+    M --> O
+    N --> P[Generate Prediction or Recommendation]
+    O --> P
+    P --> Q[Output Results]
+    Q --> R[End]
+
+    %% Styles
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef decision fill:#ccf,stroke:#333,stroke-width:2px;
+    classDef process fill:#cfc,stroke:#333,stroke-width:2px;
+    class A,R startEnd;
+    class C,I,H,M decision;
+    class B,D,E,F,G,J,K,L,N,O,P,Q process;
+
 ---
 
 ### 💖 Núcleo Emocional
