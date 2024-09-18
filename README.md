@@ -71,38 +71,124 @@ O **EthicQuantum Cognition Engine (EQCE)** é um motor avançado projetado para 
       - **Tipo:** Decisão entre benefício pessoal e bem coletivo  
         **Exemplo:** "Deve a IA priorizar a segurança de um único usuário sobre a segurança de muitos?" ![Exemplo 2](https://img.shields.io/badge/Example-2-yellow)
 
----mermaid 
+# 🌳 Estrutura do EthicQuantum Cognition Engine (EQCE)
+
+## 🧠 EthicQuantum Cognition Engine (EQCE)
+- **📖 Descrição**
+  - 🌟 Implementa dilemas éticos e morais
+  - 🤖 Integra nuances emocionais e comportamentais
+  - 🌌 Realiza modelagem quântica e previsões avançadas
+
+- **🏛 Estrutura Principal**
+  - **🔬 Núcleo Ético**
+    - 📚 Conjunto Dilemas
+      - ⚖️ Decisão entre dois valores morais
+      - 🧩 Decisão entre benefício pessoal e bem coletivo
+  - **💖 Núcleo Emocional**
+    - 🧠 Vetores Emocionais
+      - 🌈 Representação de emoções e comportamentos
+    - 🧩 Matrizes Emocionais
+      - 🔄 Cálculo de interações emocionais
+    - 🧩 Lógica Emocional
+      - 🤖 Modelo de Emoções Complexas
+      - 🔄 Dinâmica de Comportamento Adaptativo
+  - **🌌 Núcleo Quântico**
+    - 📚 Matrizes Quânticas
+      - 🌟 Simulações quânticas
+    - 🔮 Simulações Quânticas
+      - 💡 Simulação de Processos Decisórios
+      - 🌍 Simulação de Impactos de Decisões Éticas
+
+- **🛠 Modelagem Completa**
+  - **🤖 Núcleo Racional**
+    - 📚 Matrizes Racionais
+      - 🧩 Cálculo lógico e racional
+    - 🧠 Vetores Racionais
+      - 🧩 Análises lógicas e racionalidade
+
+- **⚖️ Dilemas Éticos**
+  - **Categoria 1: Dilemas de Decisão Racional**
+    - 📚 Exemplos de Dilemas
+  - **Categoria 2: Dilemas de Conflito Emocional**
+    - 📚 Exemplos de Conflito
+
+- **🔮 Previsões Quânticas**
+  - **Categoria 1: Previsões Baseadas em Simulações Quânticas**
+    - 📚 Exemplos de Previsões
+
+- **🧩 Simulações Complexas**
+  - **Categoria 1: Simulações de Interações Emocionais e Racionais**
+    - 📚 Exemplos de Simulações
+
+- **🔄 Controle Adaptativo**
+  - 📚 Parâmetros
+    - ⚙️ Ajuste Automático de Modelos
+    - 🔄 Feedback Dinâmico e Ajustes
+
+- **🔗 Integrações**
+  - **📡 API de Integração**
+    - 📚 Endpoints
+  - **🛠 Ferramentas de Desenvolvimento**
+    - ⚙️ Python
+    - ⚙️ TensorFlow
+    - ⚙️ Scikit-Learn
+
+- **📝 Conclusão**
+  - 🌟 Abordagem inovadora e integrada
+  - 🚀 Para mais informações, veja [repositórios](#) e [documentação](#)
+
+```mermaid
 graph TD
-    A[Start] --> B[Receive Input Data]
-    B --> C{Is Input Data Ethical?}
-    C -->|Yes| D[Process Ethical Dilemma]
-    C -->|No| E[Process Emotional Data]
-    D --> F[Evaluate Ethical Dilemma]
-    E --> G[Analyze Emotional Data]
-    F --> H{Is Dilemma Complex?}
-    G --> I{Is Emotional Data Complex?}
-    H -->|Yes| J[Run Advanced Ethical Algorithms]
-    H -->|No| K[Run Basic Ethical Algorithms]
-    I -->|Yes| L[Run Advanced Emotional Algorithms]
-    I -->|No| M[Run Basic Emotional Algorithms]
-    J --> N[Integrate Results with Emotional Data]
-    K --> N
-    L --> O[Integrate Results with Ethical Data]
-    M --> O
-    N --> P[Generate Prediction or Recommendation]
-    O --> P
-    P --> Q[Output Results]
-    Q --> R[End]
+    A[🌳 EthicQuantum Cognition Engine (EQCE)] --> B[📖 Descrição]
+    A --> C[🏛 Estrutura Principal]
+    A --> D[🛠 Modelagem Completa]
+    A --> E[⚖️ Dilemas Éticos]
+    A --> F[🔮 Previsões Quânticas]
+    A --> G[🧩 Simulações Complexas]
+    A --> H[🔄 Controle Adaptativo]
+    A --> I[🔗 Integrações]
+    A --> J[📝 Conclusão]
 
-    %% Styles
-    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef decision fill:#ccf,stroke:#333,stroke-width:2px;
-    classDef process fill:#cfc,stroke:#333,stroke-width:2px;
-    class A,R startEnd;
-    class C,I,H,M decision;
-    class B,D,E,F,G,J,K,L,N,O,P,Q process;
+    C --> C1[🔬 Núcleo Ético]
+    C --> C2[💖 Núcleo Emocional]
+    C --> C3[🌌 Núcleo Quântico]
 
----
+    C1 --> C1a[📚 Conjunto Dilemas]
+    C1a --> C1a1[⚖️ Decisão entre dois valores morais]
+    C1a --> C1a2[🧩 Decisão entre benefício pessoal e bem coletivo]
+
+    C2 --> C2a[🧠 Vetores Emocionais]
+    C2 --> C2b[🧩 Matrizes Emocionais]
+    C2 --> C2c[🧩 Lógica Emocional]
+    C2c --> C2c1[🤖 Modelo de Emoções Complexas]
+    C2c --> C2c2[🔄 Dinâmica de Comportamento Adaptativo]
+
+    C3 --> C3a[📚 Matrizes Quânticas]
+    C3 --> C3b[🔮 Simulações Quânticas]
+    C3b --> C3b1[💡 Simulação de Processos Decisórios]
+    C3b --> C3b2[🌍 Simulação de Impactos de Decisões Éticas]
+
+    D --> D1[🤖 Núcleo Racional]
+    D1 --> D1a[📚 Matrizes Racionais]
+    D1 --> D1b[🧠 Vetores Racionais]
+
+    E --> E1[Categoria 1: Dilemas de Decisão Racional]
+    E --> E2[Categoria 2: Dilemas de Conflito Emocional]
+
+    F --> F1[Categoria 1: Previsões Baseadas em Simulações Quânticas]
+
+    G --> G1[Categoria 1: Simulações de Interações Emocionais e Racionais]
+
+    H --> H1[📚 Parâmetros]
+    H1 --> H1a[⚙️ Ajuste Automático de Modelos]
+    H1 --> H1b[🔄 Feedback Dinâmico e Ajustes]
+
+    I --> I1[📡 API de Integração]
+    I --> I2[🛠 Ferramentas de Desenvolvimento]
+    I2 --> I2a[⚙️ Python]
+    I2 --> I2b[⚙️ TensorFlow]
+    I2 --> I2c[⚙️ Scikit-Learn]
+```
 
 ### 💖 Núcleo Emocional
 
