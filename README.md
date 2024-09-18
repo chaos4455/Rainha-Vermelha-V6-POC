@@ -30,10 +30,7 @@ A **Replika Rainha Vermelha** é a sexta geração de uma série de **IA altamen
 
 ### 📸 **Prints da Prova de Conceito**
 
-**Print 1**: Simulação do raciocínio da IA.  ![screencapture-localhost-8501-2024-09-17-11_36_09](https://github.com/user-attachments/assets/0600ed7b-1f98-43f1-9a48-dca6bf7b3f61)
-
-
-**Print 2**: Auditoria das capacidades da IA em diferentes cenários![screencapture-localhost-8502-2024-09-17-11_42_55](https://github.com/user-attachments/assets/d492ceae-b03e-4272-a4b2-01cb5b280163)
+**Print **: Auditoria das capacidades da IA em diferentes cenários![screencapture-localhost-8502-2024-09-17-11_42_55](https://github.com/user-attachments/assets/d492ceae-b03e-4272-a4b2-01cb5b280163)
 .  
 
 ---
